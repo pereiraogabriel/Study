@@ -1,0 +1,32 @@
+ALGORITIMO "trinagulo"
+
+VAR
+
+l1, l2, l3: real
+
+INICIO
+
+Escreval("Lado 1")
+Leia(l1)
+Escreval("Lado 2")
+Leia(l2)
+Escreval("Lado 3")
+Leia(l3)
+
+SE  (l1 > l2 + l3) OU (l2 > l1 + l3) OU (l3 > l1 + l2) ENTAO
+   ESCREVAL ("Não é triangulo")
+SENAO
+     SE (l1 = l2) E (l2 = l3) ENTAO
+        ESCREVAL ("Equilátero")
+     SENAO
+     SE (l1 = l2) OU (l2 = l3) OU (l1 = l3) ENTAO
+        ESCREVAL ("Isosceles")
+     SENAO
+          ESCREVAL("Escaleno")
+     FIMSE
+     FIMSE
+FIMSE
+
+
+
+FIMLALGORITIMO
