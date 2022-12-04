@@ -1,0 +1,38 @@
+#include <stdio.h>
+//Contar de 1 a 100
+
+
+int main(){
+    int i = 0;
+    
+  printf("Inicio\n");
+  while (i <= 100){
+      printf("%d\n", i);
+      i = i + 1;
+      
+  }
+  printf("Fim");
+  
+}
+
+
+
+// Possibilidade com IF BREAK
+
+int main(){
+    int i = 0;
+    
+  printf("Inicio\n");
+  while (i <= 100){
+     printf("%d\n", i);
+     i = i + 1;
+    
+  if (i == 50){
+    printf("O i vale 50\n");
+    break;
+  }
+      
+  }
+  printf("Fim");
+  
+}
