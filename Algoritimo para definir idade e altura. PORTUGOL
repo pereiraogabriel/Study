@@ -1,0 +1,22 @@
+var
+altmar, altjo, crescianomar, crescianojo: real
+id: inteiro
+inicio
+
+altmar  <- 1.20
+altjo  <- 1.05
+crescianomar <- 0.05
+crescianojo <- 0.07
+id <- 8
+
+enquanto  altmar >= altjo faca
+          altmar <- altmar + crescianomar
+          altjo <-  altjo + crescianojo
+          id <- id + 1
+fimenquanto
+
+escreval ("Idade ", id)
+escreval ("Altura Joao ", altjo)
+escreval ("Altura Marcelo ", altmar)
+
+fimalgoritmo
