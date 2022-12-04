@@ -55,6 +55,5 @@ int main(){
        default:
        printf("VOTO NULO\n");
    }
-   
-   
+ 
     return 0;
